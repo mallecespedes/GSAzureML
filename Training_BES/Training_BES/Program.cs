@@ -1,6 +1,4 @@
-﻿
-
-// This code requires the Nuget package Microsoft.AspNet.WebApi.Client to be installed.
+﻿// This code requires the Nuget package Microsoft.AspNet.WebApi.Client to be installed.
 // Instructions for doing this in Visual Studio:
 // Tools -> Nuget Package Manager -> Package Manager Console
 // Install-Package Microsoft.AspNet.WebApi.Client
@@ -147,7 +145,7 @@ namespace CallBatchExecutionService
             const string BaseUrl = "https://ussouthcentral.services.azureml.net/workspaces/a84f9ba84d5c48a582bfac621d24ff3e/services/d02cc3d7ad05497da412decb8037ba2d/jobs";
 
             const string StorageAccountName = "mariellecespedessa01"; // Replace this with your Azure Storage Account name
-            const string StorageAccountKey = "p2UKpM39SGUtVu5yAJr/B4n6vLNMfstNPvblzjh5wawgOFdSuanFJkElneh56POpTKFsQUcv/XufmDFE4eC+Lw=="; // Replace this with your Azure Storage Key
+            const string StorageAccountKey = "zX/s1ximmtfp8GXrLND4mN48bodP0+ECC1nUM/eRUS/zxISLDnWpu59lwDMGCCDbhT5uFrBF0Ad0F6kKC9yroQ=="; // Replace this with your Azure Storage Key
             const string StorageContainerName = "trainingbes"; // Replace this with your Azure Storage Container name
             string storageConnectionString = string.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}", StorageAccountName, StorageAccountKey);
             const string apiKey = "jND4OSk/irKZjhkdXw+1QJGyxSAT5xiVk5mUxQvaXKEpPJfJ15xdhLIR0YHVHiO8EhpvXyxs0t67evayFbIMIg=="; // Replace this with the API key for the web service
@@ -157,8 +155,8 @@ namespace CallBatchExecutionService
 
 
 
-            UploadFileToBlob("C:\\Users\\m.cespedes\\projects\\azure-machine-learning-getting-started\\GSAzureML\\3-azure-machine-learning-getting-started-m3-exercise-files\\german_data.csv" /*Replace this with the location of your input file*/,
-               "newdatadatablob.csv" /*Replace this with the name you would like to use for your Azure blob; this needs to have the same extension as the input file */,
+            UploadFileToBlob("C:\\Users\\m.cespedes\\projects\\azure-machine-learning-getting-started\\GSAzureML\\3-azure-machine-learning-getting-started-m3-exercise-files\\german_data_clean.csv" /*Replace this with the location of your input file*/,
+               "german_example_upload.csv" /*Replace this with the name you would like to use for your Azure blob; this needs to have the same extension as the input file */,
                StorageContainerName, storageConnectionString);
 
             using (HttpClient client = new HttpClient())
