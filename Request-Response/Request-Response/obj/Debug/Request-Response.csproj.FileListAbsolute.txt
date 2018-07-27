@@ -1,0 +1,10 @@
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\bin\Debug\Request-Response.exe.config
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\bin\Debug\Request-Response.exe
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\bin\Debug\Request-Response.pdb
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\bin\Debug\Newtonsoft.Json.dll
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\bin\Debug\Newtonsoft.Json.xml
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\obj\Debug\Request-Response.csprojResolveAssemblyReference.cache
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\obj\Debug\Request-Response.exe
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Request-Response\Request-Response\obj\Debug\Request-Response.pdb

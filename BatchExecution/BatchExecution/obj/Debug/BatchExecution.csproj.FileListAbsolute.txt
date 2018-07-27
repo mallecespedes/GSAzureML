@@ -1,0 +1,2 @@
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\BatchExecution\BatchExecution\bin\Debug\BatchExecution.exe.config
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\BatchExecution\BatchExecution\obj\Debug\BatchExecution.csprojResolveAssemblyReference.cache
