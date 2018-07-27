@@ -1,1 +1,16 @@
 C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\Training_BES\Training_BES\bin\Debug\Training_BES.exe.config
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\Training_BES.exe.config
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\Training_BES.exe
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\Training_BES.pdb
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\Newtonsoft.Json.dll
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\Newtonsoft.Json.xml
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\obj\Debug\Training_BES.csproj.Training_BES.exe.config
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\obj\Debug\Training_BES.exe
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\obj\Debug\Training_BES.pdb
+C:\Users\m.cespedes\projects\azure-machine-learning-getting-started\GSAzureML\Training_BES\Training_BES\obj\Debug\Training_BES.csprojResolveAssemblyReference.cache

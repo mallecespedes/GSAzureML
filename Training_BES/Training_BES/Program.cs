@@ -146,18 +146,18 @@ namespace CallBatchExecutionService
 
             const string BaseUrl = "https://ussouthcentral.services.azureml.net/workspaces/a84f9ba84d5c48a582bfac621d24ff3e/services/d02cc3d7ad05497da412decb8037ba2d/jobs";
 
-            const string StorageAccountName = "mystorageacct"; // Replace this with your Azure Storage Account name
-            const string StorageAccountKey = "Dx9WbMIThAvXRQWap/aLnxT9LV5txxw=="; // Replace this with your Azure Storage Key
-            const string StorageContainerName = "mycontainer"; // Replace this with your Azure Storage Container name
+            const string StorageAccountName = "mariellecespedessa01"; // Replace this with your Azure Storage Account name
+            const string StorageAccountKey = "p2UKpM39SGUtVu5yAJr/B4n6vLNMfstNPvblzjh5wawgOFdSuanFJkElneh56POpTKFsQUcv/XufmDFE4eC+Lw=="; // Replace this with your Azure Storage Key
+            const string StorageContainerName = "trainingbes"; // Replace this with your Azure Storage Container name
             string storageConnectionString = string.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}", StorageAccountName, StorageAccountKey);
-            const string apiKey = "abc123"; // Replace this with the API key for the web service
+            const string apiKey = "jND4OSk/irKZjhkdXw+1QJGyxSAT5xiVk5mUxQvaXKEpPJfJ15xdhLIR0YHVHiO8EhpvXyxs0t67evayFbIMIg=="; // Replace this with the API key for the web service
 
             // set a time out for polling status
             const int TimeOutInMilliseconds = 120 * 1000; // Set a timeout of 2 minutes
 
 
 
-            UploadFileToBlob("newdatadata.csv" /*Replace this with the location of your input file*/,
+            UploadFileToBlob("C:\\Users\\m.cespedes\\projects\\azure-machine-learning-getting-started\\GSAzureML\\3-azure-machine-learning-getting-started-m3-exercise-files\\german_data.csv" /*Replace this with the location of your input file*/,
                "newdatadatablob.csv" /*Replace this with the name you would like to use for your Azure blob; this needs to have the same extension as the input file */,
                StorageContainerName, storageConnectionString);
 
