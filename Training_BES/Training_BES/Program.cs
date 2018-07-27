@@ -1,4 +1,6 @@
-﻿// This code requires the Nuget package Microsoft.AspNet.WebApi.Client to be installed.
+﻿
+
+// This code requires the Nuget package Microsoft.AspNet.WebApi.Client to be installed.
 // Instructions for doing this in Visual Studio:
 // Tools -> Nuget Package Manager -> Package Manager Console
 // Install-Package Microsoft.AspNet.WebApi.Client
@@ -142,13 +144,13 @@ namespace CallBatchExecutionService
             // 3. Call the Batch Execution Service to process the data in the blob. Any output is written to Azure blobs.
             // 4. Download the output blob, if any, to local file
 
-            const string BaseUrl = "https://ussouthcentral.services.azureml.net/workspaces/a84f9ba84d5c48a582bfac621d24ff3e/services/d02cc3d7ad05497da412decb8037ba2d/jobs";
+            const string BaseUrl = "https://ussouthcentral.services.azureml.net/workspaces/a84f9ba84d5c48a582bfac621d24ff3e/services/49a823d55aa64972ba4802b41e3020d9/jobs";
 
             const string StorageAccountName = "mariellecespedessa01"; // Replace this with your Azure Storage Account name
             const string StorageAccountKey = "zX/s1ximmtfp8GXrLND4mN48bodP0+ECC1nUM/eRUS/zxISLDnWpu59lwDMGCCDbhT5uFrBF0Ad0F6kKC9yroQ=="; // Replace this with your Azure Storage Key
             const string StorageContainerName = "trainingbes"; // Replace this with your Azure Storage Container name
             string storageConnectionString = string.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}", StorageAccountName, StorageAccountKey);
-            const string apiKey = "jND4OSk/irKZjhkdXw+1QJGyxSAT5xiVk5mUxQvaXKEpPJfJ15xdhLIR0YHVHiO8EhpvXyxs0t67evayFbIMIg=="; // Replace this with the API key for the web service
+            const string apiKey = "GLGVLSYwPTHpzTLEEwl2+37XoGpGbGTfqHQmz9X7lMTj0lzuFcLvk1Xak7NIecv3e3JncUfH47Ohpbft2bd0xg=="; // Replace this with the API key for the web service
 
             // set a time out for polling status
             const int TimeOutInMilliseconds = 120 * 1000; // Set a timeout of 2 minutes
@@ -190,11 +192,11 @@ namespace CallBatchExecutionService
                         },
 
                         {
-                            "evaluationresult",
+                            "evaluationmodel",
                             new AzureBlobDataReference()
                             {
                                 ConnectionString = storageConnectionString,
-                                RelativeLocation = string.Format("/{0}/evaluationresultresults.csv", StorageContainerName)
+                                RelativeLocation = string.Format("/{0}/evaluationmodelresults.csv", StorageContainerName)
                             }
                         },
                     },
@@ -290,4 +292,5 @@ namespace CallBatchExecutionService
         }
     }
 }
+
 
